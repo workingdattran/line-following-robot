@@ -24,12 +24,13 @@ The hardware architecture is split into two main custom-designed boards:
 ## 📂 Hardware Design Files
 
 ```text
-hardware/
-├── mcu-board/
-│   ├── schematics/          # Schematic files (.SchDoc / .pdf)
-│   └── pcb/                 # Layout files (.PcbDoc / Gerber files)
-├── sensor-array/
-│   ├── schematics/          # 8-sensor array schematics
-│   └── pcb/                 # Front bar PCB layout & Gerbers
-└── bom/
-    └── components_list.csv  # Bill of Materials
+├── assets/
+│   ├── mcu_board_3d.png      # 3D view of MCU mainboard
+│   └── sensor_array_3d.png   # 3D view of 8-sensor bar
+└── hardware/
+    ├── mcu-board/
+    │   ├── schematics/
+    │   └── pcb/
+    └── sensor-array/
+        ├── schematics/
+        └── pcb/
